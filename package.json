@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha tests/*.js --exit"
+  },
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mocha": "^6.2.2",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "parse-error": "^0.2.0",
+    "pug": "2.0.0-beta11",
+    "sequelize": "^5.21.3"
+  }
+}
